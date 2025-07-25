@@ -223,8 +223,8 @@ export default function Services() {
             transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
           >
             <p className="text-lg text-[#94a1b2] mb-8">
-              Need a custom solution? Let's discuss your specific requirements.
-            </p>
+  Need a custom solution? Let&apos;s discuss your specific requirements.
+</p>
             <motion.button 
               onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}
               className="bg-gradient-to-r from-[#7f5af0] to-[#2cb67d] text-white px-8 py-3.5 rounded-full font-medium text-sm tracking-wide hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
