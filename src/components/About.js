@@ -111,7 +111,7 @@ export default function About() {
 
           {/* Main Content */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-            {/* Left Side - Professional Photo (Larger Size) */}
+            {/* Left Side - Professional Photo */}
             <motion.div 
               className="flex justify-center lg:justify-start"
               initial={{ opacity: 0, x: -50 }}
@@ -119,7 +119,6 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
             >
               <div className="relative">
-                {/* Floating particles around the image */}
                 <motion.div
                   initial={{ scale: 0 }}
                   animate={isInView ? { scale: 1 } : { scale: 0 }}
@@ -152,7 +151,7 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
             >
               <h3 className="text-3xl font-bold text-white mb-6">
-                Hi, I'm Naveen Kr Jain
+                Hi, I&apos;m Naveen Kr Jain
               </h3>
               
               <div className="space-y-4 text-lg text-[#94a1b2] leading-relaxed">
@@ -161,22 +160,20 @@ export default function About() {
                   I specialize in helping individuals and businesses navigate complex 
                   tax regulations and achieve their financial goals.
                 </p>
-                
                 <p>
                   My expertise spans across tax preparation, bookkeeping, financial 
                   planning, and business consulting. I believe in building long-term 
                   relationships with my clients by providing personalized service 
                   and expert guidance.
                 </p>
-                
                 <p>
-                  Whether you're a small business owner looking to optimize your 
-                  finances or an individual seeking tax advice, I'm here to provide 
+                  Whether you&apos;re a small business owner looking to optimize your 
+                  finances or an individual seeking tax advice, I&apos;m here to provide 
                   reliable, professional service tailored to your unique needs.
                 </p>
               </div>
 
-              {/* Credentials - Centered */}
+              {/* Credentials */}
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <motion.div 
                   className="flex items-center gap-2 bg-[#16161a] text-white px-4 py-2 rounded-full text-sm font-medium border border-[#7f5af0]"
@@ -206,7 +203,7 @@ export default function About() {
             </motion.div>
           </div>
 
-          {/* Statistics Cards */}
+          {/* Statistics */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
             {[
               { number: 30, suffix: "+", label: "Years of Experience", icon: <Briefcase className="w-8 h-8 text-[#7f5af0]" /> },
@@ -221,13 +218,10 @@ export default function About() {
                 transition={{ duration: 0.6, delay: 0.6 + index * 0.1, ease: "easeOut" }}
                 whileHover={{ y: -8 }}
               >
-                {/* Card background accent */}
                 <div className="absolute -bottom-20 -right-20 w-40 h-40 rounded-full bg-[#7f5af0]/10 blur-xl opacity-70"></div>
-                
                 <div className="flex items-center justify-center w-16 h-16 bg-[#242629] rounded-full mb-4 mx-auto">
                   {stat.icon}
                 </div>
-                
                 <motion.div 
                   className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-[#7f5af0] to-[#2cb67d] bg-clip-text text-transparent mb-2 text-center relative z-10 h-16 flex items-center justify-center"
                   initial={{ scale: 0 }}
@@ -247,7 +241,6 @@ export default function About() {
                     isInView={isInView}
                   />
                 </motion.div>
-                
                 <p className="text-[#94a1b2] font-medium text-lg text-center relative z-10">{stat.label}</p>
               </motion.div>
             ))}
