@@ -25,11 +25,11 @@ export default function FAQ() {
     },
     {
       question: "Can you help with QuickBooks setup and training?",
-      answer: "Absolutely! I'm QuickBooks certified and can help you set up your QuickBooks system, customize it for your business needs, provide training to you and your team, and offer ongoing support to ensure you're making the most of this powerful tool."
+      answer: "Absolutely! I&apos;m QuickBooks certified and can help you set up your QuickBooks system, customize it for your business needs, provide training to you and your team, and offer ongoing support to ensure you&apos;re making the most of this powerful tool."
     },
     {
       question: "What makes your services different from other accountants?",
-      answer: "I focus on building personal relationships with my clients and providing customized solutions. Unlike larger firms, you'll always work directly with me, ensuring consistent service and deep understanding of your business. I also emphasize proactive communication and use modern technology to streamline processes."
+      answer: "I focus on building personal relationships with my clients and providing customized solutions. Unlike larger firms, you&apos;ll always work directly with me, ensuring consistent service and deep understanding of your business. I also emphasize proactive communication and use modern technology to streamline processes."
     }
   ]
 
@@ -42,7 +42,7 @@ export default function FAQ() {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
-      
+
       <section id="faq" className="py-24 bg-[#0e0e10]" ref={ref}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
@@ -127,15 +127,15 @@ export default function FAQ() {
             >
               <span className="text-3xl">💬</span>
             </motion.div>
-            
+
             <h3 className="text-2xl font-bold text-white mb-4">
               Still have questions?
             </h3>
             <p className="text-lg text-[#94a1b2] mb-8 max-w-2xl mx-auto">
               Contact me for personalized solutions tailored to your specific needs. 
-              I'm here to help you navigate your financial journey with confidence.
+              I&apos;m here to help you navigate your financial journey with confidence.
             </p>
-            
+
             <motion.button 
               onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}
               className="bg-gradient-to-r from-[#7f5af0] to-[#2cb67d] text-white px-8 py-3.5 rounded-full font-medium text-sm tracking-wide hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
