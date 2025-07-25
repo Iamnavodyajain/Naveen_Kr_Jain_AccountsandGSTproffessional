@@ -182,7 +182,7 @@ export default function ContactForm() {
                     </div>
                     <div>
                       <h4 className="font-medium text-white">Email Us</h4>
-                      <p className="text-[#94a1b2]">accounts@naveenjain.com</p>
+                      <p className="text-[#94a1b2]">jain123naveen@gmail.com</p>
                     </div>
                   </div>
                   
@@ -192,7 +192,7 @@ export default function ContactForm() {
                     </div>
                     <div>
                       <h4 className="font-medium text-white">Call Us</h4>
-                      <p className="text-[#94a1b2]">+91 98765 43210 (GST Helpdesk)</p>
+                      <p className="text-[#94a1b2]">9267938776 (GST Helpdesk)</p>
                     </div>
                   </div>
                   
@@ -202,7 +202,7 @@ export default function ContactForm() {
                     </div>
                     <div>
                       <h4 className="font-medium text-white">Our Office</h4>
-                      <p className="text-[#94a1b2]">123 Financial Street, Delhi, India</p>
+                      <p className="text-[#94a1b2]">D-173 Avantika Rohini Sec-1 Delhi India</p>
                     </div>
                   </div>
                   
@@ -221,16 +221,16 @@ export default function ContactForm() {
                   <div className="pt-4">
                     <h4 className="font-medium text-white mb-3">Follow for Tax Updates</h4>
                     <div className="flex space-x-3">
-                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-[#242629] p-3 rounded-full hover:bg-[#0077b5]/20 transition-colors duration-200 group">
+                      <a href="https://www.linkedin.com/in/naveen-kumar-jain-378837332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="bg-[#242629] p-3 rounded-full hover:bg-[#0077b5]/20 transition-colors duration-200 group">
                         <Linkedin className="w-5 h-5 text-[#0077b5] group-hover:text-white" />
                       </a>
                       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="bg-[#242629] p-3 rounded-full hover:bg-[#1da1f2]/20 transition-colors duration-200 group">
                         <Twitter className="w-5 h-5 text-[#1da1f2] group-hover:text-white" />
                       </a>
-                      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-[#242629] p-3 rounded-full hover:bg-[#e1306c]/20 transition-colors duration-200 group">
+                      <a href="https://www.instagram.com/naveen_kr_jain?igsh=cmoycnBnejZzYWlx" target="_blank" rel="noopener noreferrer" className="bg-[#242629] p-3 rounded-full hover:bg-[#e1306c]/20 transition-colors duration-200 group">
                         <Instagram className="w-5 h-5 text-[#e1306c] group-hover:text-white" />
                       </a>
-                      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-[#242629] p-3 rounded-full hover:bg-[#1877f2]/20 transition-colors duration-200 group">
+                      <a href="https://www.facebook.com/share/1FDTa4A8n6/" target="_blank" rel="noopener noreferrer" className="bg-[#242629] p-3 rounded-full hover:bg-[#1877f2]/20 transition-colors duration-200 group">
                         <Facebook className="w-5 h-5 text-[#1877f2] group-hover:text-white" />
                       </a>
                     </div>
