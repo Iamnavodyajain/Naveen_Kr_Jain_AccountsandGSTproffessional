@@ -45,7 +45,7 @@ export default function Navbar() {
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-lg overflow-hidden">
                   <img
-                    src="/logo2.png"
+                    src="/LOGO2.png"
                     alt="Naveen Kr Jain"
                     className="w-full h-full object-cover"
                   />
