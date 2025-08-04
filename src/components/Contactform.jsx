@@ -192,7 +192,7 @@ export default function ContactForm() {
                     </div>
                     <div>
                       <h4 className="font-medium text-white">Call Us</h4>
-                      <p className="text-[#94a1b2]">9267938776 (GST Helpdesk)</p>
+                      <p className="text-[#94a1b2]">9891650700 (GST Helpdesk)</p>
                     </div>
                   </div>
                   
